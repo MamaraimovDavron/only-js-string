@@ -1,10 +1,9 @@
-let str = "abshi";
+let str = "abshihi";
 
 countHi = (str) => {
-    for(let i = 0; i < str.length; i++){
-        
-        if(str.includes('hi') == true)
-            return i;
+    let t = str.includes(str,0) == true;
+    if(t > 1){
+        return t;
     }
 }
 
